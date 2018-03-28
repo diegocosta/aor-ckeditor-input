@@ -1,8 +1,8 @@
 {
   "name": "aor-ckeditor-input",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CKEditor input for admin-on-rest",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "prepublish": "babel --out-dir ./lib ./src"
   },
