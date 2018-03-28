@@ -1,8 +1,11 @@
 {
   "name": "aor-ckeditor-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CKEditor input for admin-on-rest",
   "main": "src/index.js",
+  "scripts": {
+    "prepublish": "babel --out-dir ./lib ./src"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/diegocosta/aor-ckeditor-input.git"
@@ -24,5 +27,13 @@
     "lodash.get": "^4.4.2",
     "react": "^16.2.0",
     "react-ckeditor-component": "^1.0.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
   }
 }
