@@ -1,0 +1,28 @@
+{
+  "name": "aor-ckeditor-input",
+  "version": "1.0.0",
+  "description": "CKEditor input for admin-on-rest",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/diegocosta/aor-ckeditor-input.git"
+  },
+  "keywords": [
+    "react",
+    "admin-on-rest",
+    "aor",
+    "ckeditor",
+    "input"
+  ],
+  "author": "Diego Costa <diego@diegocosta.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegocosta/aor-ckeditor-input/issues"
+  },
+  "homepage": "https://github.com/diegocosta/aor-ckeditor-input#readme",
+  "dependencies": {
+    "lodash.get": "^4.4.2",
+    "react": "^16.2.0",
+    "react-ckeditor-component": "^1.0.7"
+  }
+}
