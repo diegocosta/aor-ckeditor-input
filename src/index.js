@@ -2,12 +2,13 @@ import React from 'react';
 import get from 'lodash.get';
 import CKEditor from "react-ckeditor-component";
 
-const CKEditorInput = ({ record, source, input }) => (
+const CKEditorInput = props => (
   <CKEditor
-    content={get(record, source)}
+    content={get(props.record, props.source)}
     events={{
-      change: e => input.onChange(e.editor.getData())
+      change: e => props.input.onChange(e.editor.getData())
     }}
+    {...props}
   />
 );
 
