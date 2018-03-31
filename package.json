@@ -1,10 +1,10 @@
 {
   "name": "aor-ckeditor-input",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "CKEditor input for admin-on-rest",
   "main": "lib/index.js",
   "scripts": {
-    "prepare": "babel --out-dir ./lib ./src/index.js",
+    "prepare": "babel --out-file ./index.js ./src/index.js",
     "test": "react-scripts test --env=jsdom",
     "eslint": "eslint src --ext .js --ext .jsx",
     "eslint:fix": "eslint src --fix --ext .js --ext .jsx"
