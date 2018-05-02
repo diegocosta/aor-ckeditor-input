@@ -2,6 +2,25 @@
 
 exports[`CKEditorInput renders activeClass correctly 1`] = `
 <div
-  className="aor-test"
-/>
+  className="aor-ckeditor-input"
+>
+  <div
+    className="aor-test"
+  />
+</div>
+`;
+
+exports[`CKEditorInput renders error message correctly 1`] = `
+<div
+  className="aor-ckeditor-input"
+>
+  <div
+    className=""
+  />
+  <div
+    className="error"
+  >
+    Required
+  </div>
+</div>
 `;
